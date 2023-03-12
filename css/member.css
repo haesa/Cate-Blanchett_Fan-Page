@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+}
+.form {
+  width: 500px;
+  margin: 0 auto;
+}
+.form form {
+  width: 100%;
+}
+.form form h3 {
+  font-size: 45px;
+}
+.form form .write {
+  width: 100%;
+}
+.form form .write fieldset {
+  width: 100%;
+}
+.form form .write fieldset legend {
+  font-size: 25px;
+  font-weight: bold;
+}
+.form form .write fieldset table {
+  margin-top: 20px;
+}
+.form form .write fieldset table tr input {
+  margin-left: 20px;
+  width: 200px;
+  height: 25px;
+}

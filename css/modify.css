@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+/* modify */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.board_write {
+	width:900px;
+	position:relative;
+	margin:0 auto;
+}
+.board_write h4 {
+  font-size: 50px;
+}
+.board_write .write_area {
+	margin-top:70px;
+	font-size:14px;
+}
+.board_write .write_area .in_title {
+	margin-top:30px;
+}
+.board_write .write_area .in_title textarea {
+	font-weight:bold;
+	font-size:26px;
+	color:#333;
+	width: 900px;
+	border:none;
+	resize: none;
+}
+.board_write .write_area .wi_line {
+	border:solid 1px lightgray;
+	margin-top:10px;
+}
+.board_write .write_area .in_content {
+	margin-top:10px;
+}
+.board_write .write_area .in_content textarea {
+	font:14px;
+	color:#333;
+	width: 900px;
+	height: 400px;
+	resize: none;
+}
+.board_write .write_area .bt_se {
+	margin-top:20px;
+	text-align:center;
+}
+.board_write .write_area .bt_se button {
+	width:100px;
+	height:30px;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.list {
+  width: 60%;
+  margin: 0 auto;
+}
+.list h2 {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 0 10px;
+}
+.list .search_box {
+  float: right;
+  margin-bottom: 10px;
+}
+.list table{
+  width: 100%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+.list table thead {
+  font-size: 25px;
+  font-weight: bold;
+}
+.list table tbody {
+  font-size: 20px;
+}
+.list table tr{
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+}
+.list table tr.even{
+  background: #efefef;
+}
+.list table tr td{
+  border-bottom: 1px solid #efefef;
+  padding: 10px;
+}
+.list .text{
+  width: 80px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align:center;
+  padding-top:20px;
+  color:#000000;
+}
+.list .text .btn{
+  display: block;
+  width: 100%;
+}
+a:link {color : #57A0EE; text-decoration:none;}
+a:hover { text-decoration : underline;}

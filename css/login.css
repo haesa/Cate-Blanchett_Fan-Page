@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+/* Login */
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+main {
+  width: 100%;
+}
+.main_main{
+  width: 40%;
+  margin: 50px auto;
+}
+.main_main h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.main_main .login_box{
+  margin: 0 auto;
+  text-align: center;
+  width:40%;
+  border:solid 2px gray;
+}
+.main_main .login_box table {
+  margin-top:10px;
+}
+.main_main .login_box table .inph {
+  height:25px;
+}
+.main_main .login_box table .btn {
+  width:95px;
+  height:55px;
+  background: skyblue;
+  border:solid 1px skyblue;
+}
+.main_main .login_box table .mem{
+  font-size: 20px;
+}
+.main_main .login_box table .mem a:hover {
+  color:red;
+}
+.main_main .login_box form table tr:last-child {
+  margin-top: 10px;
+}

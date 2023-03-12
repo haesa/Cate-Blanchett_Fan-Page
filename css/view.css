@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+/* reset */
+*{padding: 0; margin: 0}
+
+/* layout */
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+}
+.wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.contents {
+  width: 720px;
+  margin: 100px auto;
+}
+.contents .view_table {
+  width: 100%;
+  border: 3px solid #bbb;
+  margin-bottom: 50px;
+}
+.contents .view_table tr {
+  display: block;
+}
+.contents .view_table tr:first-child {
+  border-bottom: 2px solid #bbb;
+}
+.contents .view_table tr:last-child {
+  border-top: 3px solid #bbb;
+}
+.contents .view_table tr td {
+  padding: 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+.contents .view_table tr td:last-child {
+  border-right: 0px;
+}
+.contents .view_table .view_title, .view_writer, .view_date {
+  font-weight: bold;
+}
+.contents .view_table .view_title {
+  font-size: 30px;
+}
